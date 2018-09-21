@@ -142,7 +142,7 @@ Sometimes there are global variables in your code that you have no control over.
 
 ### Templates
 
-Sometimes there is more than just javascript in your file. For example in `.liquid` files and eslint will fail to parse. Here are some tricks to avoid this 
+Sometimes there is more than just javascript in your file (for example in `.liquid`) files and eslint will fail to parse. Here are some tricks to avoid this 
 
 **Don't use liquid in javascript**. No seriously, avoid if at all possible
 
@@ -152,11 +152,11 @@ const foo = {{ foo }};   // ERROR
 const foo = '{{ foo }}'; // VALID
 ```
 
-Use the `json` filter (usually better for more complex data)
-```
-const foo = {{ foo }};        // ERROR
-const foo = {{ foo | json }}; // VALID
-```
+
+
+
+
+
 
 Use javascript to do logical operations
 ```
