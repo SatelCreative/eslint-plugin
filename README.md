@@ -1,4 +1,4 @@
-# Satel ESLint Configuration
+# Satel ESLint Configurations
 
 ## Installation
 
@@ -26,7 +26,7 @@ $ yarn add eslint @satel/eslint-plugin -D
 
 ## Usage
 
-Create (or modify) a `.eslintrc` file in root of your project directory. Then you can use the `extends` property to apply the configuration
+Create (or modify) a `.eslintrc` file in the root of your project directory. Then you can use the `extends` property to apply the configuration
 
 ```json
 {
