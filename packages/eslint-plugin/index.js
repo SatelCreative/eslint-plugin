@@ -6,5 +6,6 @@ module.exports = {
     prettier: require('./lib/config/prettier'),
     liquid: require('./lib/config/liquid'),
     es5: require('./lib/config/es5'),
+    react: require('./lib/config/react'),
   },
 };
