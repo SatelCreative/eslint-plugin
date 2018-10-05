@@ -5,7 +5,7 @@ Pick a configuration to suit your needs or open an issue to request a new config
 - [theme](https://github.com/SatelCreative/eslint-plugin/tree/master/packages/eslint-config-theme) For es5 shopify themes
 - [plugin](https://github.com/SatelCreative/eslint-plugin/tree/master/packages/eslint-plugin) Standalone rules
 
-# ESLINT USAGE
+# eslint usage
 
 ## Ignore Libraries
 
