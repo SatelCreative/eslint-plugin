@@ -7,18 +7,6 @@ Pick a configuration to suit your needs or open an issue to request a new config
 
 # eslint usage
 
-## Ignore Libraries
-
-Create a `.eslintignore` at the root of your project and add any libraries or files that eslint should ignore to it (similar to `.gitignore`)
-
-```
-node_modules
-src/assets/jquery.js
-...
-```
-
-## Usage
-
 Run eslint from the command line
 
 **npm**
@@ -41,6 +29,16 @@ $ yarn eslint --help
 I would recommend adding a `lint` npm script. See [here](https://docs.npmjs.com/misc/scripts#examples)
 
 Also consider getting an [editor integration](#editor-integration)
+
+## Ignore Libraries
+
+Create a `.eslintignore` at the root of your project and add any libraries or files that eslint should ignore to it (similar to `.gitignore`)
+
+```
+node_modules
+src/assets/jquery.js
+...
+```
 
 ## Handling Linter Errors
 
