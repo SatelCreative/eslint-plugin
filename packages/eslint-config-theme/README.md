@@ -1,4 +1,4 @@
-# Satel react eslint config
+# Satel shopify theme eslint config
 
 For more general documentation on using and configuring eslint please see the root of this repo [here](https://github.com/SatelCreative/eslint-plugin)
 
@@ -11,17 +11,17 @@ $ node -v
 v8.10.0
 ```
 
-Next, install `eslint` and `@satel/eslint-config-react`
+Next, install `eslint` and `@satel/eslint-config-theme`
 
 **npm**
 ```
-$ npm i eslint @satel/eslint-config-react --save-dev
+$ npm i eslint @satel/eslint-config-theme --save-dev
 ```
 
 [**Yarn**](https://yarnpkg.com/en/docs/install)
 
 ```
-$ yarn add eslint @satel/eslint-config-react -D
+$ yarn add eslint @satel/eslint-config-theme -D
 ```
 
 *Note* - the above should be run from your project directory
@@ -32,15 +32,13 @@ Create (or modify) a `.eslintrc` file in the root of your project directory. The
 
 ```json
 {
-  "extends": "@satel/react"
+  "extends": "@satel/theme"
 }
 ```
 
 ## Contents
-- [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
-- [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
-- [eslint-plugin-jsx-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
-- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
+- [eslint-plugin-es5](https://www.npmjs.com/package/eslint-plugin-es5)
+- [eslint-plugin-html](https://www.npmjs.com/package/eslint-plugin-html)
 - [prettier](https://www.npmjs.com/package/prettier)
 - [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier)
 - [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier)

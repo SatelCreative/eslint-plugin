@@ -1,49 +1,11 @@
-# Satel ESLint Configurations
+# Satel eslint configurations
 
-## Installation
+Pick a configuration to suit your needs or open an issue to request a new configuration
+- [react](https://github.com/SatelCreative/eslint-plugin/tree/master/packages/eslint-config-react) For react application
+- [theme](https://github.com/SatelCreative/eslint-plugin/tree/master/packages/eslint-config-theme) For es5 shopify themes
+- [plugin](https://github.com/SatelCreative/eslint-plugin/tree/master/packages/eslint-plugin) Standalone rules
 
-First, make sure you have [Node.js](https://nodejs.org/en/download/) `v8.10.0` or above installed
-
-```
-$ node -v
-v8.10.0
-```
-
-Next, install `eslint` and `@satel/eslint-plugin`
-
-**npm**
-```
-$ npm i eslint @satel/eslint-plugin --save-dev
-```
-
-[**Yarn**](https://yarnpkg.com/en/docs/install)
-
-```
-$ yarn add eslint @satel/eslint-plugin -D
-```
-
-*Note* - the above should be run from your project directory
-
-## Configure
-
-Create (or modify) a `.eslintrc` file in the root of your project directory. Then you can use the `extends` property to apply the configuration
-
-```json
-{
-  "extends": "plugin:@satel/prettier"
-}
-```
-
-You can also extend multiple of the provided configurations
-
-```json
-{
-  "extends": [
-    "plugin:@satel/prettier",
-    "plugin:@satel/liquid"
-  ]
-}
-```
+# ESLINT USAGE
 
 ## Ignore Libraries
 
@@ -79,29 +41,6 @@ $ yarn eslint --help
 I would recommend adding a `lint` npm script. See [here](https://docs.npmjs.com/misc/scripts#examples)
 
 Also consider getting an [editor integration](#editor-integration)
-
-## Suggested Configurations
-
-For legacy Shopify themes:
-```json
-{
-  "extends": [
-    "plugin:@satel/es5",
-    "plugin:@satel/prettier",
-    "plugin:@satel/liquid"
-  ]
-}
-```
-
-## Available Configurations
-
-- `@satel/es5`:
-   - Prevents accidental es2015+ feature usage
-   - Requires jquery variables to begin with `$`
-- `@satel/liquid`:
-   - Allows linting `<script>` tags within liquid files
-- `@satel/prettier`:
-   - Uses [prettier](https://prettier.io/) to auto format your javascript
 
 ## Handling Linter Errors
 
@@ -152,13 +91,8 @@ const foo = {{ foo }};   // ERROR
 const foo = '{{ foo }}'; // VALID
 ```
 
-
-
-
-
-
-
 Use javascript to do logical operations
+
 ```
 {% if foo == true %}
   console.log('yay!')     // ERROR

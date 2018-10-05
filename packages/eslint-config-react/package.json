@@ -1,7 +1,7 @@
 {
   "name": "@satel/eslint-config-react",
   "version": "1.0.0",
-  "description": "Satel eslint config for react",
+  "description": "Satel eslint config for react apps",
   "license": "MIT",
   "author": "Quinn Blenkinsop <quinn@qw-in.com>",
   "keywords": [
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/SatelCreative/eslint-plugin/issues"
   },
-  "homepage": "https://github.com/SatelCreative/eslint-plugin",
+  "homepage": "https://github.com/SatelCreative/eslint-plugin/tree/master/packages/eslint-config-react",
   "repository": "https://github.com/SatelCreative/eslint-plugin",
   "publishConfig": {
     "access": "public"
