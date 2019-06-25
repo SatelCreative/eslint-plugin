@@ -1,0 +1,40 @@
+{
+  "name": "@satel/eslint-config-ts-react",
+  "version": "1.0.0",
+  "description": "Satel eslint config for typescript react apps",
+  "license": "MIT",
+  "author": "Quinn Blenkinsop <quinn@qw-in.com>",
+  "keywords": [
+    "typescript",
+    "satel",
+    "eslint",
+    "eslintplugin",
+    "eslintconfig"
+  ],
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "bugs": {
+    "url": "https://github.com/SatelCreative/eslint-plugin/issues"
+  },
+  "homepage": "https://github.com/SatelCreative/eslint-plugin/tree/master/packages/eslint-config-ts-react",
+  "repository": "https://github.com/SatelCreative/eslint-plugin",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "1.10.2",
+    "@typescript-eslint/parser": "1.10.2",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-prettier": "5.0.0",
+    "eslint-plugin-import": "2.17.3",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-prettier": "3.1.0",
+    "eslint-plugin-react": "7.13.0",
+    "prettier": "1.18.2"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0 || ^6.0.0",
+    "typescript": "^3.0.0"
+  }
+}
