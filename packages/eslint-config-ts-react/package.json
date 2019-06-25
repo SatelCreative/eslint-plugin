@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/SatelCreative/eslint-plugin/issues"
   },
-  "homepage": "https://github.com/SatelCreative/eslint-plugin/tree/master/packages/eslint-config-react",
+  "homepage": "https://github.com/SatelCreative/eslint-plugin/tree/master/packages/eslint-config-ts-react",
   "repository": "https://github.com/SatelCreative/eslint-plugin",
   "publishConfig": {
     "access": "public"
@@ -34,6 +34,7 @@
     "prettier": "1.18.2"
   },
   "peerDependencies": {
-    "eslint": "^5.16.0 || ^6.0.0"
+    "eslint": "^5.16.0 || ^6.0.0",
+    "typescript": "^3.0.0"
   }
 }
