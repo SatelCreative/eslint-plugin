@@ -2,6 +2,7 @@ module.exports =  {
   parser:  '@typescript-eslint/parser',
   plugins: ['prettier'],
   extends:  [
+    'react-hooks',
     'airbnb',
     'plugin:@typescript-eslint/recommended',
     'prettier', 
@@ -39,5 +40,9 @@ module.exports =  {
     '@typescript-eslint/explicit-function-return-type': 0,
     '@typescript-eslint/no-explicit-any': 0,
     '@typescript-eslint/explicit-member-accessibility': 0, // Silly for react data flow
+
+    // React hooks
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   },
 };

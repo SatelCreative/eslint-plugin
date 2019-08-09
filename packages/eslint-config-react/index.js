@@ -5,10 +5,16 @@ module.exports = {
   extends: ['airbnb', 'prettier', 'prettier/react'],
   plugins: ['prettier'],
   rules: {
-    'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
     'prettier/prettier': ['error', {
       singleQuote: true,
       trailingComma: 'all',
-    }]
+    }],
+
+    // Support js files for jsx syntax
+    'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
+
+    // React hooks
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   },
 };
