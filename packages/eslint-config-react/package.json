@@ -1,6 +1,6 @@
 {
   "name": "@satel/eslint-config-react",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Satel eslint config for react apps",
   "license": "MIT",
   "author": "Quinn Blenkinsop <quinn@qw-in.com>",
