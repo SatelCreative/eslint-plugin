@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
   },
   extends: ['airbnb', 'prettier', 'prettier/react'],
-  plugins: ['prettier'],
+  plugins: ['react-hooks', 'prettier'],
   rules: {
     'prettier/prettier': ['error', {
       singleQuote: true,
