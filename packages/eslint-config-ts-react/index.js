@@ -31,6 +31,7 @@ module.exports =  {
     // Airbnb fixes
     'consistent-return': 0, // Typescript will handle this
     'import/no-unresolved': 0, // Does not detect index.ts in folders
+    'react/static-property-placement': 0, // Don't like it
     'react/jsx-props-no-spreading': 0, // Typescript will handle this
     'react/jsx-filename-extension': [1, { extensions: ['.tsx'] }],
 
