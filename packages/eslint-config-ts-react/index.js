@@ -31,7 +31,9 @@ module.exports =  {
     // Airbnb fixes
     'consistent-return': 0, // Typescript will handle this
     'import/no-unresolved': 0, // Does not detect index.ts in folders
+    'react/jsx-props-no-spreading': 0, // Typescript will handle this
     'react/jsx-filename-extension': [1, { extensions: ['.tsx'] }],
+
     // and the award for dumbest rule goes to...
     // it changes how and where the error is bubbled
     'no-return-await': 0,
