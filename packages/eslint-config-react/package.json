@@ -33,5 +33,6 @@
   },
   "peerDependencies": {
     "eslint": "^6.0.0"
-  }
+  },
+  "gitHead": "be36fae96b916b702b045fb022aabf0a889de020"
 }
