@@ -1,6 +1,6 @@
 {
   "name": "@satel/eslint-config-ts-react",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "Satel eslint config for typescript react apps",
   "license": "MIT",
   "author": "Quinn Blenkinsop <quinn@qw-in.com>",
@@ -23,13 +23,13 @@
     "access": "public"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "2.9.0",
-    "@typescript-eslint/parser": "2.9.0",
+    "@typescript-eslint/eslint-plugin": "2.15.0",
+    "@typescript-eslint/parser": "2.15.0",
     "eslint-config-airbnb": "18.0.1",
-    "eslint-config-prettier": "6.7.0",
-    "eslint-plugin-import": "2.18.2",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-plugin-import": "2.19.1",
     "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-prettier": "3.1.1",
+    "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-react": "7.17.0",
     "eslint-plugin-react-hooks": "2.3.0",
     "prettier": "1.19.1"
