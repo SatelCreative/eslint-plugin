@@ -1,6 +1,6 @@
 {
   "name": "@satel/eslint-config-ts-react",
-  "version": "3.3.1",
+  "version": "4.0.0",
   "description": "Satel eslint config for typescript react apps",
   "license": "MIT",
   "author": "Quinn Blenkinsop <quinn@qw-in.com>",
@@ -35,7 +35,7 @@
     "prettier": "2.0.5"
   },
   "peerDependencies": {
-    "eslint": "^6.0.0",
-    "typescript": "^3.0.0"
+    "eslint": "^7.0.0",
+    "typescript": "^3.6.0"
   }
 }
